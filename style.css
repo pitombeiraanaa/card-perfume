@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: hsl(30, 38%, 92%);
+}
+
+img{
+  width: 300px;
+  height: 450px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.box {
+width: 300px;
+height: 450px;
+padding: 24px;
+background-color: hsl(0, 0%, 100%);
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
+}
+
+h1.title {
+  padding-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 12px;
+  font-family: 'Mountserrant', sans-serif;
+  font-weight: 500;
+  color:  hsl(228, 12%, 48%);
+  
+}
+
+h2 {
+  padding-top: 10px;
+  font-family: 'Fraunces', sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+}
+
+p {
+ padding-top: 20px;
+ font-size: 17px;
+ font-family: 'Mountserrant', sans-serif;
+ font-weight: 500;
+ color: hsl(228, 12%, 48%);
+}
+
+.valores {
+  display:flex;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.valores .valorDesc {
+  padding-top: 30px;
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 500;
+  color: hsl(158, 36%, 37%);
+  padding-bottom: 40px;
+  
+}
+
+.valores .valorAntigo {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 6.5px;
+ text-decoration:line-through;
+ color:hsl(228, 12%, 48%);
+ padding-left: 20px;
+}
+
+button {
+  padding: 10px 70px 10px 70px;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: hsl(158, 75%, 28%);
+  cursor: pointer;
+}
+
+
+
+
+
